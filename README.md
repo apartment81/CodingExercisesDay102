@@ -1,0 +1,4 @@
+# CodingExercisesDay102
+Roulette - ANDROID APP
+- SECTORS CALCULATION EXPLAINED:
+-  The roulette has 38 sectors. The whole circle is 360 degrees. That makes 360 / 38 = 9.47 degrees each of the sectors. The first sector (number 32 red) starts from half the previous sector (number 0) and is 9.47 degrees. That means it starts from 9.47  / 2 = 4.73 and ends in 4.73 + 9.47 = 14.20 degrees. In other hand 14.20 equals 3 times 4.73. So i picked half the sector 4.73 as a FACTOR. Based on this factor  we calculate all the sectors. The first one as we said is from FACTOR to FACTOR * 3. Second sector (number 15 black) is from FACTOR * 3 to FACTOR * 5. And this continues for all of the sectors. Only the sector 0 is a little bit different. It starts from 360 degrees minus FACTOR and ends with 0 degrees + FACTOR.
